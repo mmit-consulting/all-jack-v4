@@ -8,3 +8,5 @@ The module supports incremental rollout (2 accounts at a time) by simply updatin
 No impact on other OUs or accounts unless explicitly added.
 
 This prepares the foundation for controlled deployment across the the accounts.
+
+# Possible improve: add mapping id and name , then use the name
