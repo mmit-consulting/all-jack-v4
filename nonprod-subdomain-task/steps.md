@@ -25,6 +25,7 @@ This was strictly a Terraform state move, not an infrastructure change.
 
 - Adjusted the references under `devops/data.tf` and `us-ease-1/ops/data.tf` so that global/ops is now the source of truth for the subdomain information.
 - Ensured the module is now fully managed by `global/ops` and no longer by `network`.
+- These changes were fully tested on `us-east-1/ops/data.tf`. The updates for `devops/data.tf` are identical in structure, but I was not able to test them directly. **Before merging this PR, please validate the devops changes on your side to ensure everything works as expected**.
 
 ## Outcome
 
